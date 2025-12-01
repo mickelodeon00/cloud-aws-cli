@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id xxxx --instance-type t3.micro --key-name yyyy --security-group-ids zzz --placement "AvailabilityZone=eu-west-1c" --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value="web from CLI"}]'
